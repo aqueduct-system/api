@@ -1,0 +1,9 @@
+{
+    "motd": "new",
+    "world_name": "New Server",
+    "ip": "192.168.1.1",
+    "port": 25565,
+    "path": "/server/path",
+    "jar_name": "server.jar",
+    "properties": ""
+}

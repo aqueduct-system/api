@@ -1,0 +1,33 @@
+{
+   "extends": "../../tsconfig.json",
+   "compilerOptions": {
+      "resolveJsonModule": true,
+      "isolatedModules": false,
+      "esModuleInterop": true,
+      "outDir": "./dist",
+      "baseUrl": "./",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "sourceMap": true,
+      "module": "commonjs",
+      "declaration": true,
+      "noImplicitAny": false,
+      "removeComments": true,
+      "noLib": false,
+      "target": "es2020",
+      "lib": [
+       "es2020"
+      ],
+		"types": [
+			"node"
+		],
+		"moduleResolution": "node"
+   },
+   "include": [
+      "./src"
+   ],
+   "exclude": [
+      "node_modules",
+      "**/*.spec.ts"
+   ]
+}

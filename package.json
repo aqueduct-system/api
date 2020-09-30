@@ -1,0 +1,65 @@
+{
+   "name": "@aqueduct/api",
+   "version": "0.1.0",
+   "description": "> TODO: description",
+   "author": "Nathan Gingrich <njgingrich@gmail.com>",
+   "homepage": "",
+   "license": "ISC",
+   "directories": {
+      "src": "src",
+      "test": "__tests__"
+   },
+   "files": [
+      "src"
+   ],
+   "scripts": {
+      "tsc": "tsc",
+      "dev": "nodemon",
+      "start": "ts-node src/index.ts",
+      "test": "NODE_ENV=test jest",
+      "test:watch": "NODE_ENV=test jest --watch"
+   },
+   "dependencies": {
+      "@aqueduct-system/types": "0.1.0",
+      "@koa/cors": "^3.1.0",
+      "@koa/router": "9.3.1",
+      "bigint-buffer": "^1.1.5",
+      "dockerode": "^3.2.1",
+      "io-ts": "^2.2.10",
+      "koa": "^2.13.0",
+      "koa-bodyparser": "^4.3.0",
+      "koa-websocket": "^6.0.0",
+      "mysql": "^2.14.1",
+      "open": "^7.2.0",
+      "read-last-lines": "^1.7.2",
+      "reflect-metadata": "^0.1.10",
+      "sqlite3": "^5.0.0",
+      "systeminformation": "^4.26.10",
+      "tail": "^2.0.4",
+      "tree-kill": "^1.2.2",
+      "typeorm": "0.2.25",
+      "typera-koa": "0.7.3",
+      "typescript": "^4.0.2",
+      "varint": "^5.0.0"
+   },
+   "devDependencies": {
+      "@types/better-sqlite3": "^5.4.0",
+      "@types/dockerode": "^2.5.34",
+      "@types/jest": "^26.0.10",
+      "@types/koa": "^2.11.3",
+      "@types/koa-bodyparser": "^4.3.0",
+      "@types/koa-router": "^7.4.1",
+      "@types/koa-websocket": "^5.0.4",
+      "@types/node": "^8.0.29",
+      "@types/open": "^6.2.1",
+      "@types/supertest": "^2.0.10",
+      "@types/systeminformation": "^3.54.1",
+      "@types/tail": "^2.0.0",
+      "jest": "^26.4.0",
+      "nodemon": "^2.0.4",
+      "supertest": "^4.0.2",
+      "ts-jest": "^26.2.0",
+      "ts-node": "3.3.0",
+      "typescript": "^4.0.2"
+   }
+}

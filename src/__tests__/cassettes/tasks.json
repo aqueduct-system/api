@@ -1,0 +1,30 @@
+{
+    "unstarted": {
+        "id": 1,
+        "state": 0,
+        "result": null,
+        "start_time": null,
+        "end_time": null
+    },
+    "started": {
+        "id": 1,
+        "state": 1,
+        "result": null,
+        "start_time": null,
+        "end_time": null
+    },
+    "completed": {
+        "id": 1,
+        "state": 2,
+        "result": "{\"id\":1,\"motd\":\"i did a task\",\"world_name\":\"Task World\"}",
+        "start_time": null,
+        "end_time": null
+    },
+    "failed": {
+        "id": 1,
+        "state": 3,
+        "result": null,
+        "start_time": null,
+        "end_time": null
+    }
+}
