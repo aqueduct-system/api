@@ -1,5 +1,5 @@
 import { Entity, Column, PrimaryGeneratedColumn } from "typeorm";
-import { Aqueduct } from '@aqueduct/types';
+import { Aqueduct } from '@aqueduct-system/types';
 
 @Entity()
 export class Task implements Aqueduct.Task {

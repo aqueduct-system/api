@@ -1,6 +1,6 @@
 import { Response, Route, URL, route, router } from "typera-koa";
 import { getManager } from "typeorm";
-import { Aqueduct } from "@aqueduct/types";
+import { Aqueduct } from "@aqueduct-system/types";
 
 import { Task } from "../entity/Task";
 import { CollectionResponse, ResourceResponse } from "./responses";

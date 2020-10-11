@@ -1,6 +1,6 @@
 import { Entity, Column, PrimaryGeneratedColumn } from "typeorm";
-import { Aqueduct } from "@aqueduct/types";
-import * as commands from "../servers/commands";
+import { Aqueduct } from "@aqueduct-system/types";
+import * as commands from "../helpers/servers/commands";
 import { ChildProcess } from "child_process";
 
 @Entity()

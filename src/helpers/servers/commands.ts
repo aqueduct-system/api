@@ -1,10 +1,10 @@
 import child_process from 'child_process';
 import { getManager } from 'typeorm';
 
-import { Server } from '../entity/Server';
-import { Task } from '../entity/Task';
-import { Aqueduct } from '@aqueduct/types';
-import manager from '../manager';
+import { Server } from '../../entity/Server';
+import { Task } from '../../entity/Task';
+import { Aqueduct } from '@aqueduct-system/types';
+import manager from '../../manager';
 
 const SERVER_LOG_IS_DONE_REGEX = new RegExp(/Done \(.+\)! For help, type "help"/);
 

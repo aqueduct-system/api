@@ -10,7 +10,7 @@ import serversIndex from "./cassettes/servers.json";
 import serverCreate from "./cassettes/create.json";
 import serverUpdate from "./cassettes/update.json";
 import tasksCassette from './cassettes/tasks.json';
-import { Aqueduct } from "@aqueduct/types";
+import { Aqueduct } from "@aqueduct-system/types";
 
 let server;
 

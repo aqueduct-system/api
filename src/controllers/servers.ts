@@ -3,7 +3,7 @@ import Router from "@koa/router";
 import { Parser, Response, Route, URL, route, router } from "typera-koa";
 import * as t from "io-ts";
 import { getManager } from "typeorm";
-import { Aqueduct } from "@aqueduct/types";
+import { Aqueduct } from "@aqueduct-system/types";
 import { read } from "read-last-lines";
 
 import manager from "../manager";
@@ -11,8 +11,8 @@ import { Server } from "../entity/Server";
 import { Task } from "../entity/Task";
 import { tailLogs } from "../logs/logs";
 import { CollectionResponse, ResourceResponse, CreateResponse, UpdateResponse, DeleteResponse } from "./responses";
-import * as commands from '../servers/commands';
-import { ping } from "../servers/ping";
+import * as commands from '../helpers/servers/commands';
+import { ping } from "../helpers/servers/ping";
 
 const createServerBody = t.type({
     motd: t.string,
